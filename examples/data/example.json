@@ -1,0 +1,33 @@
+{
+  "comments": [
+    "comentario1", "comentario2"
+  ],
+  "num_var": 3,
+  "num_clauses": 4,
+  "clauses": [
+    {
+      "weight": 10,
+      "data": [
+        [1, -2, 0]
+      ]
+    },
+     {
+      "weight": 3,
+      "data": [
+        [-1, 2, 0]
+      ]
+    },
+     {
+      "weight": 1,
+      "data": [
+        [-2, -1, 0]
+      ]
+    },
+     {
+      "weight": 6,
+      "data": [
+        [1, 2, 0]
+      ]
+    }
+  ]
+}
