@@ -2,6 +2,7 @@
   "comments": [
     "comentario1", "comentario2"
   ],
+  "condition": 450,
   "num_var": 3,
   "num_clauses": 4,
   "clauses": [
