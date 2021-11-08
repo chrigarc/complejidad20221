@@ -14,14 +14,14 @@ def main(argv):
     print(tspInstance.distancias)
 
     cert = [0,1,2,3,4,5]
-  #  cert = [0,2,4,1,3,5]
+ #   cert = [0,2,4,1,3,5]
 
     acc = 0
     for i in range(0,5):
         acc+=tspInstance.distancias[cert[i], cert[i+1]]
     acc+=tspInstance.distancias[cert[5], cert[0]]
 
-    print('distancia total:' + str(distance))
+    print('distancia total:' + str(acc))
 
 if __name__ == "__main__":
     main(sys.argv[1:])
